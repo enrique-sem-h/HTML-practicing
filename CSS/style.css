@@ -1,26 +1,12 @@
 body {
     font-size: 22px;
-    color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background: papayawhip;
+    color: hwb(0 0% 100%);
 }
 
 p {
-    color: inherit;
-}
+    color: hsl(0, 0%, 20%);
 
-h1,
-h2 {
-    color: blue;
-}
-
-p span {
-    text-transform: uppercase;
-    background-color: gold;
-}
-
-.gray {
-    color: gray;
-}
-
-#second {
-    color: red;
 }
