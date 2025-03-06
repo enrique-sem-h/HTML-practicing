@@ -6,12 +6,19 @@ body {
     font-family: 'Dongle', sans-serif;
 }
 
-/* input, button {
-    font: inherit;
-} */
-
-p {
-    line-height: 1.5;
+a {
+    color: hsl(207, 44%, 49%);
 }
 
-/* Did some more experiments using other text and font properties*/
+a:visited{
+    color: purple;
+}
+
+a:hover {
+    color: hsl(189, 44%, 49%);
+    background: gold;
+}
+
+a:active {
+    color: red;
+}
