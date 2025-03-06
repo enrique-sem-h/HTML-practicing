@@ -1,24 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
 
 body {
-    padding: 10%;
+    padding: 5% 10%;
     font-size: 2rem;
     font-family: 'Dongle', sans-serif;
 }
 
-a {
-    color: hsl(207, 44%, 49%);
+ol {
+    list-style-type: none;
+    padding: 0;
 }
 
-a:visited{
-    color: purple;
+ul {
+    list-style-type: square;
+    text-align: center;
+    list-style-position: inside;
+    color: blue;
+    line-height: 1.6;
+    /* list-style-image: url(/CSS/images/image.png);
+    list-style: square url(/CSS/images/image.png) inside; */
 }
 
-a:hover {
-    color: hsl(189, 44%, 49%);
-    background: gold;
-}
-
-a:active {
+ul li:nth-child(even) {
     color: red;
+}
+
+ul ::marker {
+    color: red;
+    font-family: fantasy;
+    font-size: 1em;
+    content: "Ai";
 }
